@@ -7,7 +7,7 @@ body {
 }
 
 .mainblocks {
-    flex: 1 1 0;
+    flex: 1 1 300px;
 }
 
 .block1 {
@@ -25,6 +25,7 @@ body {
 
 .mainblocks>div {
     width: 70%;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -76,9 +77,9 @@ body {
     color: #E5E7EB;
 }
 
-.textContent button {
+button {
     font-size: 16px;
-    padding: 6px 18px;
+    padding: 8px 18px;
     border: 1px solid rgb(10, 129, 184);
     border-radius: 8px;
     background-color: rgb(10, 129, 184);
@@ -91,22 +92,25 @@ img {
     height: 100%;
 }
 
-.cardContainer{
+.cardContainer {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     margin: 24px 0 42px;
 }
-.cards{
+
+.cards {
     flex: 0 0 150px;
 }
-.boxes{
+
+.boxes {
     box-sizing: border-box;
     height: 150px;
     width: 150px;
     border: 2px solid #146eeb;
     border-radius: 8px;
 }
+
 .block2 h1 {
     text-align: center;
 }
@@ -118,13 +122,55 @@ img {
     align-items: center;
     margin: 72px 0;
 }
-.quote em{
+
+.quote em {
     font-size: 32px;
     font-weight: lighter;
     margin: 0;
     color: rgb(58, 58, 58);
 }
-.quote strong{
+
+.quote strong {
     align-self: flex-end;
-    margin-right: 16px;
+    margin-right: 32px;
+}
+
+.block4 > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #146eeb;
+    border-radius: 6px;
+    padding: 32px 72px;
+    flex: 0 1 850px;
+}
+
+.signUpBox button {
+    background-color: #146eeb;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
+}
+
+.signUpBox h3,
+.signUpBox p {
+    margin: 0px;
+    color: #E5E7EB;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+footer span {
+    color: white;
+    margin: 25px 0;
 }
