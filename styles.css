@@ -110,3 +110,21 @@ img {
 .block2 h1 {
     text-align: center;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 72px 0;
+}
+.quote em{
+    font-size: 32px;
+    font-weight: lighter;
+    margin: 0;
+    color: rgb(58, 58, 58);
+}
+.quote strong{
+    align-self: flex-end;
+    margin-right: 16px;
+}
